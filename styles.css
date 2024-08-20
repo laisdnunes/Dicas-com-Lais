@@ -1,0 +1,64 @@
+body  {
+color: white;
+background:rgba(13, 4, 62, 0.798);
+margin: 50px;
+font-family:"Patua One", sans-serif;
+margin-bottom: 100px;
+}
+ 
+ h3{ font-size: 60px;
+
+}
+h2{ font-size: 60px;
+
+}
+h1{ font-size: 60px;
+
+}
+
+ 
+header {
+    border-bottom: solid 2px rgb(13, 4, 62, 0.798);
+    padding: 20px;
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+}
+
+
+
+.chamada-texto {
+    margin-right: 12%;
+}
+img {
+    height: 200px;
+  }
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* código omitido */
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+.categoria h5 {
+    color:rgba(13, 4, 62, 0.798);
+
+}
